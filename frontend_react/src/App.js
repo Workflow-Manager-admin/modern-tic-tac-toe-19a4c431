@@ -340,7 +340,15 @@ function App() {
           minHeight: "100vh"
         }}
       >
-        <div className="ttt-title">Tic Tac Toe</div>
+        <div className="ttt-title" style={{
+          color: 'rgb(25, 118, 210)',
+          fontFamily: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif',
+          fontSize: '44.8px',
+          fontWeight: 'bold',
+          fontStyle: 'normal',
+          textDecoration: 'none',
+          textAlign: 'center'
+        }}>Rehan's Tic Tac Toe</div>
         <div className="ttt-subtitle" aria-label="game description">
           Modern, minimalistic two-player &amp; AI game
         </div>
